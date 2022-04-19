@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="46526" started-at="2022-04-19T15:35:06 IST" finished-at="2022-04-19T15:35:52 IST">
+    <groups>
+    </groups>
+    <test name="Test_All" duration-ms="46526" started-at="2022-04-19T15:35:06 IST" finished-at="2022-04-19T15:35:52 IST">
+      <class name="com.test.AdminPageTest">
+        <test-method status="PASS" signature="clickAdmin()[pri:0, instance:com.test.AdminPageTest@670b40af]" name="clickAdmin" duration-ms="3783" started-at="2022-04-19T15:35:49 IST" finished-at="2022-04-19T15:35:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickAdmin -->
+      </class> <!-- com.test.AdminPageTest -->
+      <class name="com.test.LoginPageTest">
+        <test-method status="PASS" signature="loadConfig()[pri:0, instance:com.test.LoginPageTest@27f723]" name="loadConfig" is-config="true" duration-ms="88" started-at="2022-04-19T15:35:06 IST" finished-at="2022-04-19T15:35:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadConfig -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.test.LoginPageTest@27f723]" name="setUp" is-config="true" duration-ms="6876" started-at="2022-04-19T15:35:06 IST" finished-at="2022-04-19T15:35:13 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="signIn(java.lang.String, java.lang.String)[pri:0, instance:com.test.LoginPageTest@27f723]" name="signIn" duration-ms="35403" started-at="2022-04-19T15:35:13 IST" data-provider="credentials" finished-at="2022-04-19T15:35:49 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signIn -->
+        <test-method status="PASS" signature="extentReportEnd()[pri:0, instance:com.test.LoginPageTest@27f723]" name="extentReportEnd" is-config="true" duration-ms="502" started-at="2022-04-19T15:35:52 IST" finished-at="2022-04-19T15:35:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReportEnd -->
+      </class> <!-- com.test.LoginPageTest -->
+    </test> <!-- Test_All -->
+  </suite> <!-- Suite -->
+</testng-results>
